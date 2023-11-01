@@ -1,0 +1,863 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.w{
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+header{
+    height: 75px;
+    padding: 32px;
+}
+
+.main-menu li{ 
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 33px;
+}
+
+.main-menu li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner{
+    height: 658px;
+}
+
+.banner img{
+    width: 100%;
+    height: 658px;
+}
+
+.ab{
+    position: absolute;
+    top: 194px;
+    text-align: center;
+    width: 100%;
+}
+
+.ab p{
+    color: #fff;
+}
+
+.cntr{
+    width: 740px;
+    margin: 0 auto;
+}
+
+.cntr button{
+    margin-top: 65px;
+    width: 133px;
+    height: 35px;
+    border-radius: 10px;
+    background: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.cntr button:active{
+    background: #F0F0F0;
+}
+
+.My-Giro{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.text_on_banner{
+    padding-top: 39px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.main{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.about_us{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin: 0;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about_us p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about_us p:nth-child(1){
+    margin: 0;
+    margin-top: 50px;
+}
+
+.about_us p:nth-child(2){
+    margin: 0;
+    margin-top: 20px;
+}
+
+.background{
+    background-color: #EEF2E3;
+}
+
+.catalog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog ul li{
+    list-style-type: none;
+    margin-left: 39px;
+    display: inline;
+}
+
+.catalog ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    padding: 10px;
+}
+
+ .catalog ul li a:hover{
+    color: #FFF;
+    transition-duration: 0.1s;
+    transform: scale(1.5);
+}
+
+.catalog ul li:hover{
+    transform: scale(1.5);
+    background-color: #F90;
+    transition-duration: 0.1s;
+    border-radius: 15px;
+}
+
+.products{
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.tovar{
+    width: 261px;
+    height: 390px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+    margin-top: 50px;
+    background-color: #FFF;
+}
+
+.pustoe_mesto{
+    height: 16px;
+}
+
+.vid{
+    width: 83px;
+    height: 30px;
+    background-image: url('img/Rectangle 6.png');
+}
+
+.vid p{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.sigvei img{
+    position: relative;
+    margin: 0px 11px;
+}
+
+.name{
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 28px;
+}
+
+.prise{
+    margin: 0;
+    padding-top: 13px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 28px;
+}
+
+.polez_inf{
+    margin-top: 60px;
+}
+
+.polez_inf h2{
+    margin-bottom: 50px;
+}
+
+.kv{
+    background-color: black;
+    width: 261px;
+    height: 261px;
+}
+
+.kv img{
+    opacity: 60%;
+}
+
+.kv p{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: -163px;
+}
+
+footer{
+    width: 100%;
+    background-color: #EEF2E3;
+    height: 327px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #8191A6;
+}
+
+footer h4{
+    color: black;
+}
+
+footer section{
+    display: flex;
+}
+
+footer section p{
+    color: #8191A6;
+    font-size: 12px;
+    width: 354px;
+}
+
+.bl{
+    margin-left: 200px;
+}
+
+footer div{
+    margin-left: 42px;
+}
+
+footer ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    color: #8191A6;
+    list-style-type: none;
+    display: block;
+}
+
+@media (max-width: 1024px){
+    .main-menu li a{
+        font-size: 12px;
+    }
+
+    .banner{
+        height: 468px;
+    }
+    
+    .banner img{
+        width: 100%;
+        height: 468px;
+    }
+
+    .main{
+        width: 885px;
+    }
+
+    .w{
+        width: 885px;
+    }
+
+    .products{
+        width: 885px;
+        padding-bottom: 52px;
+    }
+
+    .tovar{
+        width: 210px;
+        height: 280.25px;
+    }
+
+    .pustoe_mesto{
+        height: 10px;
+    }
+    
+    .vid{
+        width: 83px;
+        height: 30px; 
+        background-image: url('img/Rectangle 6.png');
+    }
+    
+
+    .sigvei img{
+        position: relative;
+        margin: 2px 11px;
+        width: 192.299px;
+        height: 163.684px;
+    }
+    
+    .name{
+        font-size: 12px;
+        padding-left: 22px;
+    }
+    
+    .prise{
+        padding-top: 9px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 22px;
+    }
+
+    
+    .kv{
+        background-color: black;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .kv img{
+        width: 100%;
+        opacity: 60%;
+    }
+    
+    .kv p{
+        font-size: 13px;
+        margin-top: -125px;
+    }
+
+     footer li{
+        font-size: 12px;
+     }
+
+     footer h4{
+        font-size: 14px;
+     }
+}
+
+@media (max-width: 768px){
+    .main-menu li{
+        margin-left: 30px;
+    }
+
+    .main-menu li a{
+        font-size: 12px;
+    }
+
+    .banner{
+        height: 351px;
+    }
+    
+    .banner img{
+        width: 100%;
+        height: 351px; 
+    }
+
+    .ab{
+        top: 137px;
+    }
+
+    .cntr{
+        width: 590px;
+        margin: 0 auto;
+    }
+
+    .My-Giro{
+        font-size: 48px;
+    }
+    
+    .text_on_banner{
+        padding-top: 30px;
+        font-size: 16px;
+    }
+
+
+    .cntr button{
+        margin-top: 30px;
+        width: 106px;
+        height: 27.895px;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+
+    .main{
+        width: 572px;
+    }
+
+    .w .logo{
+        width: 97px;
+        height: 30px;
+    }
+
+    .w{
+        width: 768px;
+        justify-content: flex-start
+    }
+
+    
+    h2{
+        font-size: 20px;
+    }
+
+    .products{
+        width: 572px;
+        padding-bottom: 52px;
+    }
+
+    .about_us p{
+        font-size: 12px;
+    }
+
+    .catalog ul li{
+        margin-left: 17px;
+    }
+    
+    .catalog ul li a{
+        font-size: 10px;
+    }
+ /*jgjghj*/
+    .tovar{
+        width: 120px;
+        height: 195px;
+    }
+
+    .pustoe_mesto{
+        height: 5px;
+    }
+    
+    .vid{
+        width: 41.83px;
+        height: 15.119px;
+        background-image: url('Rectangle 6.png');
+    }
+    
+
+    .sigvei img{
+        position: relative;
+        margin: 2px 0;
+        width: 120.451px;
+        height: 120.451px;
+    }
+    
+    .name{
+        font-size: 8px;
+        padding-left: 14.11px;
+    }
+    
+    .prise{
+        padding-top: 6.55px;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        padding-left: 14.11px;
+    }
+
+    
+    .kv{
+        background-color: black;
+        width: 128px;
+        height: 128px;
+    }
+    
+    .kv img{
+        width: 100%;
+        opacity: 60%;
+    }
+    
+    .kv p{
+        font-size: 9px;
+        margin-top: -90px;
+    }
+
+     footer li{
+        font-size: 6px;
+     }
+
+     footer h4{
+        font-size: 7px;
+     }
+     footer section p{
+        color: #8191A6;
+        font-size: 6px;
+        width: 354px;
+    }
+}
+
+@media (max-width: 480px){
+    .logo img{
+        width: 97px;
+    }
+
+    .main-menu{
+        display: none;
+    }
+
+    .banner{
+        height: 346px;
+        overflow: hidden;
+    }
+    
+    .banner img{
+        width: 100%;
+    }
+
+    .ab{
+        top: 183px;
+    }
+
+    .cntr{
+        width: 315px;
+        margin: 0 auto;
+    }
+
+    .My-Giro{
+        font-size: 38px;
+    }
+    
+    .text_on_banner{
+        padding-top: 22px;
+        font-size: 12px;
+    }
+
+
+    .cntr button{
+        margin-top: 30px;
+        width: 106px;
+        height: 27.895px;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+
+    .main{
+        width: 421px;
+    }
+
+    .w{
+        width: 460px;
+        justify-content: flex-start
+    }
+
+    
+    h2{
+        font-size: 22px;
+    }
+
+    .about_us p{
+        font-size: 12px;
+    }
+
+    .about_us p:nth-child(3){
+        margin-top: 22px;
+    }
+
+    .catalog ul{
+        margin-top: 5px;
+    }
+
+    .catalog ul li{
+        margin-left: 19px;
+    }
+    
+    .catalog ul li a{
+        font-size: 10px;
+    }   
+ /*jgjghj*/
+    .tovar{
+        width: 190px;
+        height: 280px;
+        margin: 22px 15px;
+    }
+
+    .pustoe_mesto{
+        height: 5px;
+    }
+    
+    .products{
+        flex-wrap: wrap;
+        width: 450px;
+    }
+
+    .vid{
+        width: 83px;
+        height: 30px;
+        background-image: url('img/Rectangle 6.png');
+    }
+    
+
+    .sigvei img{
+        position: relative;
+        margin: 2px 0;
+        width: 173.148px;
+        height: 173.232px;
+    }
+    
+    .name{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    
+    .prise{
+        padding-top: 10px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    
+    .kv{
+        width: 185px;
+        height: 185px;
+        margin: 22px 15px;
+    }
+
+    .kv img{
+        width: 100%;
+        opacity: 60%;
+    }
+    
+    .kv p{
+        font-size: 11px;
+        margin-top: -110px;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+
+    footer section{
+        flex-wrap: wrap;
+    }
+
+    .bl {
+        margin-left: 0;
+    }
+
+     footer li{
+        font-size: 14px;
+     }
+
+     footer h4{
+        font-size: 14px;
+     }
+     footer section p{
+        color: #8191A6;
+        font-size: 12px;
+        width: 354px;
+    }
+}
+
+
+
+
+
+@media (max-width: 320px){
+    .logo img{
+        width: 97px;
+    }
+
+    .main-menu{
+        display: none;
+    }
+
+    .banner{
+        height: 306px;
+        overflow: hidden;
+    }
+    
+    .banner img{
+        width: 100%;
+    }
+
+    .ab{
+        top: 137px;
+    }
+
+    .cntr{
+        width: 222px;
+        margin: 0 auto;
+    }
+
+    .My-Giro{
+        font-size: 36px;
+    }
+    
+    .text_on_banner{
+        padding-top: 22px;
+        font-size: 10px;
+    }
+
+
+    .cntr button{
+        margin-top: 30px;
+        width: 106px;
+        height: 27.895px;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+
+    .main{
+        width: 290px;
+    }
+
+    .w{
+        width: 768px;
+        justify-content: flex-start
+    }
+
+    
+    h2{
+        font-size: 20px;
+    }
+
+    .about_us p{
+        font-size: 10px;
+    }
+
+    .about_us p:nth-child(3){
+        margin-top: 12px;
+    }
+
+    .catalog ul{
+        display: none;
+    }
+ /*jgjghj*/
+    .tovar{
+        width: 184px;
+        height: 280px;
+        margin: 44px 68px;
+    }
+    .tovar:nth-child(1){
+        margin: 27px 68px;
+    }
+    .pustoe_mesto{
+        height: 5px;
+    }
+    
+    .products{
+        flex-wrap: wrap;
+    }
+
+    .vid{
+        width: 83px;
+        height: 30px;
+        background-image: url('img/Rectangle 6.png');
+    }
+    
+
+    .sigvei img{
+        position: relative;
+        margin: 2px 0;
+        width: 173.148px;
+        height: 173.232px;
+    }
+    
+    .name{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    
+    .prise{
+        padding-top: 10px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    
+    .kv{
+        width: 180px;
+        height: 180px;
+        margin: 34px 60px;
+    }
+    
+    .kv:nth-child(1){
+        margin: 0 60px;
+    }
+
+    .kv img{
+        width: 100%;
+        opacity: 60%;
+    }
+    
+    .kv p{
+        font-size: 11px;
+        margin-top: -110px;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        height: 500px;
+    }
+
+    footer section{
+        flex-wrap: wrap;
+    }
+
+    .bl {
+        margin-left: 0;
+    }
+
+     footer li{
+        font-size: 14px;
+     }
+
+     footer h4{
+        font-size: 14px;
+     }
+     footer section p{
+        color: #8191A6;
+        font-size: 12px;
+        width: 354px;
+    }
+}
+
